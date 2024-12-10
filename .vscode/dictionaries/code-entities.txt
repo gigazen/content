@@ -31,6 +31,7 @@
 -moz-visitedhyperlinktext
 -moz-win-communicationstext
 -moz-win-mediatext
+3rdparty
 accentcolor
 accentcolortext
 Accept-EncodXng
@@ -593,6 +594,7 @@ reflectionchange
 removestream
 replacewithcommas
 replacewithspaces
+RFCOMM
 RGBX
 RGUI
 richlistbox
