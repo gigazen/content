@@ -272,6 +272,8 @@ Click "Play" in the code blocks below to edit the example in the MDN Playground.
 <div>
   <p class="p1">Italic</p>
   <span>(font-style: italic)</span>
+  <p class=".p1-no-synthesis">Italic</p>
+  <span>(font-style: italic; font-synthesis: none)</span>
 </div>
 <div>
   <p class="p2">Italic</p>
@@ -320,16 +322,20 @@ p {
 ```
 
 ```css live-sample___variable-fonts-italic-example
-/* italic range is 0 or 1 */
+/* font-style: italic, with and without font-synthesis */
 .p1 {
-  font-synthesis: none;
   font-style: italic;
+}
+
+.p1-no-synthesis {
+  font-style: italic;
+  font-synthesis: none;
 }
 
 /* italic range is 0 or 1 */
 .p2 {
-  font-synthesis: none;
   font-variation-settings: "ital" 1;
+  font-synthesis: none;
 }
 
 /* Adjust with slider & custom property */
@@ -719,7 +725,7 @@ The following example pages show two different ways to structure your CSS. The f
 
 ```html hidden live-sample___sample-page-example
 <div class="container container1">
-  <h1>Moby Dick</h1>
+  <h1>Moby-Dick</h1>
   <h2>CHAPTER 1. Loomings.</h2>
   <p>
     Call me Ishmael. Some years ago—never mind how long precisely–having little
@@ -737,7 +743,7 @@ The following example pages show two different ways to structure your CSS. The f
 </div>
 <hr />
 <div class="container container2 demo2">
-  <h1>Moby Dick</h1>
+  <h1>Moby-Dick</h1>
   <h2>CHAPTER 1. (hover here)</h2>
   <p>
     Call me Ishmael. Some years ago—never mind how long precisely–having little

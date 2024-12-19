@@ -10,7 +10,7 @@ page-type: guide
 
 The primary use case for CSP is to control which resources, in particular JavaScript resources, a document is allowed to load. This is mainly used as a defense against {{glossary("cross-site scripting")}} (XSS) attacks, in which an attacker is able to inject malicious code into the victim's site.
 
-A CSP can have other purposes as well, including defending against {{glossary("clickjacking")}} and helping to ensure that a site's pages will be loaded over HTTPS.
+A CSP can have other purposes as well, including defending against [clickjacking](/en-US/docs/Web/Security/Attacks/Clickjacking) and helping to ensure that a site's pages will be loaded over HTTPS.
 
 In this guide we'll start by describing how a CSP is delivered to a browser and what it looks like at a high level.
 
@@ -581,7 +581,7 @@ The server handling these requests can then store or process the incoming report
 
 ## See also
 
-- [Mitigate cross-site scripting with a strict Content Security Policy](https://web.dev/strict-csp) on web.dev (2024)
+- [Mitigate cross-site scripting with a strict Content Security Policy](https://web.dev/articles/strict-csp) on web.dev (2024)
 - [Content Security Policy: A successful mess between hardening and mitigation](https://infocondb.org/con/locomocosec/locomocosec-2019/content-security-policy-a-successful-mess-between-hardening-and-mitigation)
 - [Content Security Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) on owasp.org
 - [CSP Evaluator](https://csp-evaluator.withgoogle.com/)
